@@ -4,14 +4,19 @@
   <meta charset="utf-8">
   
   
-  <title>Hexo</title>
+  <title>python3常规语法 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="排序 sort   在原来的列表上进行修改   12345demo_list &#x3D; [1, 2, 3, 9, 5]# 升序demo_list.sort()# 降序demo_list.sort(reverse&#x3D;True)  sorted   生成一个新的列表，可以用来排序任何一个可以迭代的数据类型   12demo_tup &#x3D; (1, 2, 3, 9, 5)new_list &#x3D; sorted(demo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python3常规语法">
+<meta property="og:url" content="http://example.com/2022/12/14/python3%E5%B8%B8%E8%A7%84%E8%AF%AD%E6%B3%95/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="排序 sort   在原来的列表上进行修改   12345demo_list &#x3D; [1, 2, 3, 9, 5]# 升序demo_list.sort()# 降序demo_list.sort(reverse&#x3D;True)  sorted   生成一个新的列表，可以用来排序任何一个可以迭代的数据类型   12demo_tup &#x3D; (1, 2, 3, 9, 5)new_list &#x3D; sorted(demo">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-12-14T08:14:42.000Z">
+<meta property="article:modified_time" content="2022-12-14T08:22:46.382Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="python">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -69,9 +74,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-python3常规语法" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-python3常规语法" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2022/12/14/python3%E5%B8%B8%E8%A7%84%E8%AF%AD%E6%B3%95/" class="article-date">
   <time class="dt-published" datetime="2022-12-14T08:14:42.000Z" itemprop="datePublished">2022-12-14</time>
@@ -84,8 +87,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/12/14/python3%E5%B8%B8%E8%A7%84%E8%AF%AD%E6%B3%95/">python3常规语法</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      python3常规语法
     </h1>
   
 
@@ -118,59 +121,19 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-jenkins-api-trigger-job-并发问题，build-no获取" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/12/07/jenkins-api-trigger-job-%E5%B9%B6%E5%8F%91%E9%97%AE%E9%A2%98%EF%BC%8Cbuild-no%E8%8E%B7%E5%8F%96/" class="article-date">
-  <time class="dt-published" datetime="2022-12-07T06:33:01.000Z" itemprop="datePublished">2022-12-07</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/12/07/jenkins-api-trigger-job-%E5%B9%B6%E5%8F%91%E9%97%AE%E9%A2%98%EF%BC%8Cbuild-no%E8%8E%B7%E5%8F%96/">jenkins api trigger job 并发问题，build_no获取</a>
-    </h1>
+    <a href="/2022/12/07/jenkins-api-trigger-job-%E5%B9%B6%E5%8F%91%E9%97%AE%E9%A2%98%EF%BC%8Cbuild-no%E8%8E%B7%E5%8F%96/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">jenkins api trigger job 并发问题，build_no获取</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h3 id="并发问题解决方案"><a href="#并发问题解决方案" class="headerlink" title="并发问题解决方案"></a>并发问题解决方案</h3><p>打开job的设置页面</p>
-<p>This project is parameterized</p>
-<p>增加一个字符串类型的参数</p>
-<p>在参数的编辑框中，Name字段填写ref</p>
-<h3 id="build-no获取"><a href="#build-no获取" class="headerlink" title="build_no获取"></a>build_no获取</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 触发job</span></span><br><span class="line">url = <span class="string">f&#x27;https://my-jenkins.com/generic-webhook-trigger/invoke?token=<span class="subst">&#123;token&#125;</span>&#x27;</span></span><br><span class="line">headers = &#123;<span class="string">&#x27;Content-Type&#x27;</span>: <span class="string">&#x27;application/json&#x27;</span>&#125;</span><br><span class="line">data_str = json.dumps(data)</span><br><span class="line">res = requests.post(url=url, data=data_str, headers=headers)</span><br><span class="line">code = res.status_code</span><br><span class="line"><span class="keyword">if</span> code == <span class="number">200</span>:</span><br><span class="line">    <span class="comment"># 获取触发的返回值, 拿到队列号</span></span><br><span class="line">    res_dict = json.loads(res.text)</span><br><span class="line">    queue_id = res_dict[<span class="string">&#x27;jobs&#x27;</span>][job_name][<span class="string">&#x27;id&#x27;</span>]</span><br><span class="line">    <span class="comment"># 等待队列中的job被安排，安排后拿到构建号</span></span><br><span class="line">    url = <span class="string">f&#x27;https://my-jenkins.com/queue/item/<span class="subst">&#123;queue_id&#125;</span>/api/json&#x27;</span></span><br><span class="line">    <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">        time.sleep(<span class="number">2</span>)</span><br><span class="line">        r = requests.get(url)</span><br><span class="line">        r_json = r.json()</span><br><span class="line">        executable_info = r_json.get(<span class="string">&#x27;executable&#x27;</span>)</span><br><span class="line">        <span class="keyword">if</span> executable_info:</span><br><span class="line">            build_no = executable_info[<span class="string">&#x27;number&#x27;</span>]</span><br><span class="line">            logger().info(<span class="string">f&#x27;&lt;<span class="subst">&#123;process_id&#125;</span>&gt; 任务安排成功，构建号<span class="subst">&#123;job_name&#125;</span>#<span class="subst">&#123;build_no&#125;</span>&#x27;</span>)</span><br><span class="line">            <span class="keyword">break</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            logger().info(<span class="string">f&#x27;&lt;<span class="subst">&#123;process_id&#125;</span>&gt; <span class="subst">&#123;job_name&#125;</span> 任务在静默期，等待安排&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># job被安排后，更新process</span></span><br><span class="line">    logger().info(<span class="string">f&#x27;&lt;<span class="subst">&#123;process_id&#125;</span>&gt; <span class="subst">&#123;job_name&#125;</span> #<span class="subst">&#123;build_no&#125;</span> triggered&#x27;</span>)</span><br></pre></td></tr></table></figure>
-
-
-
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/12/07/jenkins-api-trigger-job-%E5%B9%B6%E5%8F%91%E9%97%AE%E9%A2%98%EF%BC%8Cbuild-no%E8%8E%B7%E5%8F%96/" data-id="clbda8php0000b7x72s10d7fp" data-title="jenkins api trigger job 并发问题，build_no获取" class="article-share-link">Share</a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jenkins/" rel="tag">jenkins</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
-
-
-
-  
 
 
 </section>
